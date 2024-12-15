@@ -8,6 +8,15 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
     />
+    <link rel="stylesheet" href="style/body.css">
+    <link rel="stylesheet" href="style/header.css">
+    <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="style/nav.css">
+    <link rel="stylesheet" href="style/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Finlandica:ital,wght@0,400..700;1,400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://necolas.github.io/normalize.css/7.0.0/normalize.css " />
   </head>
   <body>
     <div class="nav">
@@ -20,65 +29,70 @@
       <div class="menu">
         <ul>
             <li>
-                <a href="">
+                <button href="#">
                     <span class="material-symbols-outlined"> dashboard </span>
                     <span>Dashboard</span>
-                </a>
+                </button>
             </li>
             <li>
-                <a href="">
+                <button href="#">
                     <span class="material-symbols-outlined"> lunch_dining </span>
                     <span>Food & Drinks</span>
-                </a>
+                </button>
             </li>
             <li>
-                <a href="">
+                <button href="#">
                     <span class="material-symbols-outlined"> forum </span>
                     <span>Messages</span>
-                </a>
+                </button>
             </li>
             <li>
-                <a href="">
+                <button href="#">
                     <span class="material-symbols-outlined"> wallet </span>
                     <span>Bills</span>
-                </a>
+                </button>
             </li>
             <li>
-                <a href="">
+                <button href="#">
                     <span class="material-symbols-outlined"> tune </span>
                     <span>Settings</span>
-                </a>
+                </button>
             </li>
-         <span>Other</span>
+         <h3>Other</h3>
             <li>
-                <a href="">
+                <button href="#">
                     <span class="material-symbols-outlined"> mark_email_unread </span>
                     <span>Notifications</span>
-                </a>
+                </button>
             </li>
-                <a href="">
+                <button href="#">
                     <span class="material-symbols-outlined"> support_agent </span>
                     <span>Support</span>
-                </a>
+                </button>
             </li>
         </ul>
       </div>
       <div class="user">
-        <img src="/assets/User1.jpg" alt="">
-        <h1>Franklin</h1>
+        <div class="pfp">
+          <img src="/assets/User1.jpg" alt="">
+        </div>
+        <strong>Franklin</strong>
         <span>Waiter • 4h 56min</span>
-        <a>Open profile</a>
+        <button href="">Open profile</button>
       </div>
     </div>
     <div class="main">
-      <div class="header"></div>
+      <div class="header">
+        <span class="material-symbols-outlined">
+            arrow_back
+            </span>
+        <p>Food & Drinks</p>
+        <input type="text" name="" id="" placeholder="Search...">
+      </div>
       <div class="content">
         <div class="bar">
-            <span class="material-symbols-outlined">
-                arrow_back
-                </span>
-            <span>Food & Drinks</span>
-            <input type="text" name="" id="" placeholder="Search...">
+          <h1>Burgers🍔</h1>
+
         </div>
         <div class="products">
           <div class="product">
@@ -86,7 +100,9 @@
                 <img src="/assets/pobrany plik.jpg" alt="">
             </div>
             <div class="details">
-                <h1>Cheeseburger</h1>
+                <h2>Cheeseburger</h2>
+                <span>150g</span>
+                <h1>3.50$</h1>
             </div>
           </div>
           <div class="product">
@@ -94,7 +110,9 @@
                 <img src="/assets/chicken burger.jpg" alt="">
             </div>
             <div class="details">
-                <h1>Chicken Burger</h1>
+                <h2>Chicken Burger</h2>
+                <span>240g</span>
+                <h1>5.99$</h1>
             </div>
           </div>
           <div class="product">
@@ -102,7 +120,9 @@
                 <img src="/assets/hamburger.jpg" alt="">
             </div>
             <div class="details">
-                <h1>Hamburger</h1>
+                <h2>Hamburger</h2>
+                <span>140g</span>
+                <h1>2.99$</h1>
             </div>
           </div>
           <div class="product">
@@ -110,7 +130,9 @@
                 <img src="/assets/Big burger.jpg" alt="">
             </div>
             <div class="details">
-                <h1>Big John</h1>
+                <h2>Big John</h2>
+                <span>400g</span>
+                <h1>9.99$</h1>
             </div>
           </div>
           <div class="product">
@@ -118,7 +140,9 @@
                 <img src="/assets/Jalapeno smash.jpg" alt="">
             </div>
             <div class="details">
-                <h1>Spicy Jalapeno Smash</h1>
+                <h2>Spicy Jalapeno Smash</h2>
+                <span>200g</span>
+                <h1>4.50$</h1>
             </div>
           </div>
           <div class="product">
@@ -126,7 +150,9 @@
                 <img src="/assets/Star burger.jpg" alt="">
             </div>
             <div class="details">
-                <h1>Superstar</h1>
+                <h2>Superstar</h2>
+                <span>215g</span>
+                <h1>3.00$</h1>
             </div>
           </div>
         </div>

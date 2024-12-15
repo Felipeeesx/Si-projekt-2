@@ -1,0 +1,10 @@
+:root {
+  --background-color1--: white;
+  --color1--: white;
+  --font-family1--: "Poppins", sans serif;
+}
+body,
+html {
+  display: flex;
+  background-color: var(--background-color1--);
+}

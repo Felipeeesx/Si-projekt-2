@@ -1,0 +1,29 @@
+.products {
+  display: flex;
+  flex-wrap: wrap;
+}
+.products img {
+  width: 300px;
+  height: 250px;
+  margin: 15px;
+}
+.product {
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+  border-radius: 15%;
+  text-align: center;
+  height: 370px;
+  margin: 20px;
+  font-family: var(--font-family1--);
+}
+.bar h1 {
+  font-family: var(--font-family1--);
+  font-weight: 600;
+}
+.product h2 {
+  font-size: 23px;
+  font-weight: 500;
+}
+.product h1 {
+  font-size: 24px;
+  color: rgb(255, 210, 45);
+}

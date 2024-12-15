@@ -1,0 +1,61 @@
+.nav {
+  color: #979eb0;
+  padding: 12px 8px;
+  flex-basis: 280px;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  font-family: var(--font-family1--);
+  font-size: 15px;
+}
+.nav > .logo > .material-symbols-outlined {
+  width: 42px;
+  height: 42px;
+  padding: 12px;
+}
+.nav img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 02);
+}
+.user {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: var(--color1--);
+  box-shadow: 0px 4px 6px;
+  border-radius: 15px;
+  height: 11rem;
+  justify-content: center;
+}
+.user button {
+  background-color: var(--background-color1--);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  border-radius: 15px;
+  margin: 10px;
+  border: none;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 02);
+}
+.user button:hover {
+  background-color: orange;
+  transition: 0.2s;
+}
+.user strong {
+  font-weight: 500;
+}
+.menu button {
+  width: 12rem;
+  text-align: start;
+  border: none;
+  border-radius: 10px;
+  margin: 7px;
+  background-color: var(--background-color1--);
+}
+.menu button:hover {
+  background-color: orange;
+  transition: 0.2s;
+}
