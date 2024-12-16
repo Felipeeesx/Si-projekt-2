@@ -1,12 +1,13 @@
 .nav {
   color: #979eb0;
-  padding: 12px 8px;
+  padding: 12px 30px;
   flex-basis: 280px;
   display: flex;
   flex-direction: column;
   gap: 100px;
   font-family: var(--font-family1--);
-  font-size: 15px;
+  font-size: 17px;
+  border-right: 4px solid rgb(206, 205, 202);
 }
 .nav > .logo > .material-symbols-outlined {
   width: 42px;
@@ -44,18 +45,28 @@
   background-color: orange;
   transition: 0.2s;
 }
+.user button:active {
+  scale: 0.9;
+  transition: 0.2s;
+}
 .user strong {
   font-weight: 500;
 }
 .menu button {
+  height: 3rem;
   width: 12rem;
   text-align: start;
   border: none;
   border-radius: 10px;
-  margin: 7px;
+  margin: 2px;
   background-color: var(--background-color1--);
 }
 .menu button:hover {
   background-color: orange;
   transition: 0.2s;
+}
+.notification {
+  background-color: orange;
+  border-radius: 100%;
+  padding: 5px;
 }
