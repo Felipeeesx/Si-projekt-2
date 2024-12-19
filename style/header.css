@@ -4,7 +4,17 @@ div.header input {
   width: 20rem;
   height: 2rem;
   border-radius: 8px;
+}
+div.header .input {
+  display: flex;
+  background-color: rgb(204, 204, 204);
+  flex-direction: row;
+  align-items: center;
   margin-left: 65vh;
+  border-radius: 8px;
+}
+div.header .input span {
+  padding: 5px;
 }
 div.header {
   display: flex;
@@ -25,17 +35,21 @@ div.header #arrow_back {
   align-items: center;
   justify-content: center;
 }
+div.header #arrow_back:hover {
+  cursor: pointer;
+  scale: 1.1;
+  transition: 0.2s;
+}
 div.header span.food {
-  color: rgb(205, 205, 205);
+  color: rgb(136, 136, 136);
   font-size: 0.75rem;
 }
 div.header #arrow_forward {
   font-size: 0.75rem;
   color: rgb(205, 205, 205);
 }
-div.header span.burgir {
-  font-size: 0.75rem;
-  font-weight: bold;
+div.header span.burger {
+  font-size: 1rem;
 }
 div.text-header {
   display: flex;
