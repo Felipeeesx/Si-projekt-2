@@ -100,3 +100,59 @@
   font-size: 12px;
   text-align: center;
 }
+
+@media (max-width: 768px) {
+  .user {
+    display: none;
+  }
+
+  .nav {
+    width: fit-content;
+  }
+
+  .logo p {
+    display: none;
+  }
+
+  .menu .second-child-li {
+    font-size: 13px;
+  }
+  .notification {
+    display: none;
+  }
+  .menu button {
+    width: 9rem;
+  }
+  div.header .input {
+    margin-left: 25vh;
+    gap: 0.5rem;
+  }
+}
+
+@media (max-width: 428px) {
+  .logo span {
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+  }
+  .menu .second-child-li {
+    display: none;
+  }
+  .menu button {
+    width: 2.5rem;
+  }
+
+  li {
+    width: fit-content;
+  }
+  .header-left .food {
+    display: none;
+  }
+  .header-left #arrow_forward {
+    display: none;
+  }
+  .product {
+    width: 75%;
+  }
+}
